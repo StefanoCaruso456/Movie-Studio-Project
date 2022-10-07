@@ -57,11 +57,8 @@ The Foreign market will be necessary to reach our revenue goal.
 
 ## Conclusions
 
-Conclusions
-Global Gross Income 195        151       84     73    53
-1. Genres         Animation Adventure  Fantasy  Action  Sci-Fi
-3. Market         Focus      Foreign   Foreign  Foreign Foreign Domestic
-4. Runtime (mins) > 93 >      104   >   107  >   107  >  106
+![image](https://user-images.githubusercontent.com/110699702/194669089-21c2f216-65b5-487e-8b0b-61dd47715c52.png)
+
 
 
 
