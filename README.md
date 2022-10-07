@@ -36,6 +36,7 @@ Created roi and foreign column to evaluate which movie is having he most success
 creating dataframes to compensate for the lack of data provided.
 Runetime median by top 5 genre revenue.
 Analysis of finances for both domestic and foreign to capture which market makes more moeny and where we should invest our marketing budget
+![image](https://user-images.githubusercontent.com/110699702/194668768-a9f2a1b4-8200-4492-b3f6-46f80c471ba8.png)
 
 
 
