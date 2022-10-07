@@ -8,10 +8,7 @@ Andrew Boucher Principle Data Science
 Samuel Robins Lead Data scientist
 
  Microsoft's New Movie series will be a block buster!
- 
-
-Task: Present to Microsoft on how they can penetrate the movie industry successfully. We analyzed the data and found previous movies financial records. 
-
+ Task: Present to Microsoft on how they can penetrate the movie industry successfully. We analyzed the data and found previous movies financial records. 
 
 # Business Problem
 
@@ -23,7 +20,9 @@ What are the top films with the most financial success based on genre?
 Runtime with high revenue ?
 Understand the film industry through data?
 
-![image](https://user-images.githubusercontent.com/110699702/194669188-26c5ba1c-e8a3-4496-91e7-916a51c677bd.png)
+![image](https://user-images.githubusercontent.com/110699702/194669332-6b3d39b8-f97d-4fb9-8c1f-089f63b4bc7a.png)
+
+
 
 
 # Data
