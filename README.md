@@ -29,6 +29,8 @@ We've chosen to analyze two datasets (tmdb.movies.csv.gz, tn.movie_budgets.csv.g
 Missing data appears to be an issue and will be omitted because it is useless and minimal data points. runtime missing data does not have a overall revenue that falls into the top 20.
 The most valuable dataset is “tn.movie_budgets” because it provides budget and gross revenue.  This resource is highly recognized for revenue across many dimensions, combined we have over 30 thousands data points
 
+![image](https://user-images.githubusercontent.com/110699702/194668958-03fa353d-faec-4cd2-9702-85ed3173b8df.png)
+
 
 
 ## Methods
