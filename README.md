@@ -23,6 +23,8 @@ What are the top films with the most financial success based on genre?
 Runtime with high revenue ?
 Understand the film industry through data?
 
+![image](https://user-images.githubusercontent.com/110699702/194669188-26c5ba1c-e8a3-4496-91e7-916a51c677bd.png)
+
 
 # Data
 We've chosen to analyze two datasets (tmdb.movies.csv.gz, tn.movie_budgets.csv.gz). After review we cleaned and combined them into one main dataframe clean_df“”. 
