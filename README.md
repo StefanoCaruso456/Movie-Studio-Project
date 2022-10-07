@@ -43,18 +43,27 @@ Analysis of finances for both domestic and foreign to capture which market makes
 Production budget should mostly be used towars foreign markets 2
 run_time above the median for the top 5 genres will make more money.
 The Foreign market will be necessary to reach our revenue goal. 
+![image](https://user-images.githubusercontent.com/110699702/194668124-7e115fa4-da39-40d1-97de-ec26503d4ea2.png)
+![image](https://user-images.githubusercontent.com/110699702/194668136-4415a59f-75c4-4061-ba90-d5a341971afc.png)
+![image](https://user-images.githubusercontent.com/110699702/194668176-7de64ac6-8033-4586-a9ea-36bba328fc20.png)
 
 
 
 ## Conclusions
 
-
+Conclusions
+Global Gross Income 195        151       84     73    53
+1. Genres         Animation Adventure Fantasy Action Sci-Fi
+3. Market         Focus Foreign Foreign Foreign Foreign Domestic
+4. Runtime (mins) >       93 >  104   >   107  >   107  >  106
 
 
 
 
 ## Future Investigations
-
+Insufficient data on film series and streaming platforms
+Create streaming application within Xbox console where users can watch
+Microsoft films for free
 
 
 
