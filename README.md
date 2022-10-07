@@ -1,72 +1,78 @@
-# Phase 1 Project Template - Minimum Viable Product (MVP)
+![image](https://user-images.githubusercontent.com/110699702/186933478-746d378b-73c0-43d4-955b-bbd89dbcdeda.png)
 
-![blueprint](images/blueprint.png)
 
-This repository is like a blueprint, providing structure for your first End of Phase Project. We suggest you base your Phase 1 project off of this repository so you can focus less on formatting and organization, and more on the _analysis and communication skills_ that will support your progress through the course. This template is designed to make your project portfolio-ready in order to impress the future employers who will review it. 
 
-## Repository Contents
+Flatiron consulting:
+Stefano Caruso Director of Data
+Andrew Boucher Principle Data Science
+Samuel Robins Lead Data scientist
 
-Below is a list of the contents of this repository - instructions for using them are in the next section.
+ Microsoft's New Movie series will be a block buster!
+ 
 
-- `README.md`: The README for this repo branch explaining it's contents - you're reading it now
-- `TEMPLATE_README.md`: An example of a project README that provides a brief overview of your whole project
-- `dsc-phase1-project-template.ipynb`: A starter Jupyter Notebook with headings, code examples and guiding questions
-- `DS_Project_Presentation_Template.pdf`: A starter slide deck presenting your project - here is an [editable version](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy)
-- `zippedData` folder: A folder for the data you reference with your code
-- `images` folder: A folder for the images you reference in your files 
-- `.gitignore`: A hidden file that tells git to not track certain files and folders
+Task: Present to Microsoft on how they can penetrate the movie industry successfully. I analyzed the data and found previous movies financial records. 
 
-## Instructions For Using This Repository
 
-### Fork This Repository
+# Business Problem
 
-**For a group project**, have only one team member do these steps:
+Microsoft is interested in the movie industry. Their lack of experience has led them to source
+out a specialist in the field. I will inform Microsoft of the proper steps and strategy while 
+using visualization tools, looking at historic data will allow us a clear vision and path. Becoming profitable with a reasonable production budget will be revealed in the data. 
+Questions being considered:
+What are the top films with the most financial success based on genre?
+Runtime with high revenue ?
+Understand the film industry through data?
 
-1. Fork this repository to your personal account
-   - In GitHub, go to this repository and click the "Fork" button in the upper right
-   
-2. Change the name of your fork of this repo to a _descriptive_ name of your choosing
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Options" -> "Repository Name" -> "Rename"
-   - Make the name descriptive, since potential employers will read it. Ex: "Microsoft-Movie-Analysis" is better than "Project-1"
 
-3. Use `git clone` to clone your fork of this repo to your local computer
+# Data
+*******We've chosen to analyze two datasets (tmdb.movies.csv.gz, tn.movie_budgets.csv.gz). After review we cleaned and combined them into one main dataframe clean_df“”. 
+Missing data appears to be an issue and will be omitted because it is useless and minimal data points. runtime missing data does not have a overall revenue that falls into the top 20.
+The most valuable dataset is “tn.movie_budgets” because it provides budget and gross revenue.  This resource is highly recognized for revenue across many dimensions, combined we have over 30 thousands data points
 
-4. **For a group project**, add team members as collaborators to your fork of this repo
-   - In GitHub, go to your fork of this repo -> "Settings" -> "Manage Access" -> "Invite Teams or People"
-   - Add your project team members as collaborators & send them the repo GitHub URL
 
-### Work In Your Fork Of This Repository
 
-- Work in the repo clone that you created on your local machine
-- Start writing and coding in the Jupyter Notebook `dsc-phase1-project-template.ipynb`
-- Fill in the README template in `TEMPLATE_README.md`
-- Use `git add`, `git commit`, and `git push` often to update your repo in GitHub
-   - For a refresher on how to do this and why it's important, review Topic 2: Bash and Git
+## Methods
+created roi and foreign column to evaluate which movie is having he most success.  
+creating dataframes to compensate for the lack of data provided.
+Runetime median by top 5 genre revenue.
+Analysis of finances for both domestic and foreign to capture which market makes more moeny and where we should invest our marketing budget
 
-### Use The Slide Template
 
-1. Go to [this link](https://docs.google.com/presentation/d/1PaiH1bleXnhiPjTPsAXQSiAK0nkaRlseQIr_Yb-0mz0/copy) to make an editable copy of the slide deck in your own Google Drive account
-2. Go to "Slide," select "Change Theme," and pick a theme you like so your presentation doesn't look like everyone else's
-3. **For a group project**, click the "Share" button and add your teammates as editors
 
-### Tidy Up Your Project
+## Results
+Production budget should mostly be used towars foreign markets 2
+run_time above the median for the top 5 genres will make more money.
+The Foreign market will be necessary to reach our revenue goal. 
 
-- Change the file name of the Jupyter Notebook (`dsc-phase1-project-template.ipynb`) to something more descriptive
-- Save an appropriately-named PDF version of your slide deck to the repository
-- Rename the template readme you've been working in by running `git mv TEMPLATE_README.md README.md`
-- Delete unnecessary files from the repo using `git rm`
-   - The presentation PDF: `DS_Project_Presentation_Template.pdf`
-   - Any unused data files in the `zippedData` folder
-   - Any unused images in the `images` folder
-- Utilize the .gitignore file to ignore large unzipped data files in the `zippedData` folder
-   - Add `*.csv`,`*.tsv`, and `*.db` to the .gitignore file
 
-### Submit Your Project
 
-To submit your project, please follow the instructions in the "Project Submission & Review" page in the Milestones course.
+## Conclusions
 
-***
-### Notes
 
-- The visualizations in the notebook use best practices for visualization that you should try to emulate. For example, they have clear axes, descriptive titles, and appropriate number formatting
-- The `dsc-phase1-project-template.ipynb` is intended to be the _final version_ of your project. The first notebook you create will not look like this. You are encouraged to start with a very disorderly notebook and clean it as you go
+
+
+
+
+## Future Investigations
+
+
+
+
+## For More Information
+
+Contact:
+Stefano caurso: github/StefanoCaruso456/
+Andrew Boucher: github/Andrew-Boucher/
+Samuel Robins: github/SamuelRobins/
+
+You are in the README.md. 'The Final Notebook' contains the jupyter notebook code and visual assessment. 
+Our 'Project 1 slide final .pptm' contains power point slides presentation 
+In 'ZippedData' you will be able to see the dataset we worked with. 
+'README.md' 
+
+```
+├── README.md <- README information
+├── Project ‘ <- PDF version of project presentation
+├── ZippedData  <- contains development notebook and datasets
+└── Final notebook<- contains the final working jupyter notebook                           
+```
