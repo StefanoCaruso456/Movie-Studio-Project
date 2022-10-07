@@ -46,8 +46,10 @@ run_time above the median for the top 5 genres will make more money.
 The Foreign market will be necessary to reach our revenue goal. 
 
 ![image](https://user-images.githubusercontent.com/110699702/194668124-7e115fa4-da39-40d1-97de-ec26503d4ea2.png)
-![image](https://user-images.githubusercontent.com/110699702/194668136-4415a59f-75c4-4061-ba90-d5a341971afc.png)
+
 ![image](https://user-images.githubusercontent.com/110699702/194668176-7de64ac6-8033-4586-a9ea-36bba328fc20.png)
+
+![image](https://user-images.githubusercontent.com/110699702/194668136-4415a59f-75c4-4061-ba90-d5a341971afc.png)
 
 
 
