@@ -10,7 +10,7 @@ Samuel Robins Lead Data scientist
  Microsoft's New Movie series will be a block buster!
  
 
-Task: Present to Microsoft on how they can penetrate the movie industry successfully. I analyzed the data and found previous movies financial records. 
+Task: Present to Microsoft on how they can penetrate the movie industry successfully. We analyzed the data and found previous movies financial records. 
 
 
 # Business Problem
@@ -25,14 +25,14 @@ Understand the film industry through data?
 
 
 # Data
-*******We've chosen to analyze two datasets (tmdb.movies.csv.gz, tn.movie_budgets.csv.gz). After review we cleaned and combined them into one main dataframe clean_df“”. 
+We've chosen to analyze two datasets (tmdb.movies.csv.gz, tn.movie_budgets.csv.gz). After review we cleaned and combined them into one main dataframe clean_df“”. 
 Missing data appears to be an issue and will be omitted because it is useless and minimal data points. runtime missing data does not have a overall revenue that falls into the top 20.
 The most valuable dataset is “tn.movie_budgets” because it provides budget and gross revenue.  This resource is highly recognized for revenue across many dimensions, combined we have over 30 thousands data points
 
 
 
 ## Methods
-created roi and foreign column to evaluate which movie is having he most success.  
+Created roi and foreign column to evaluate which movie is having he most success.  
 creating dataframes to compensate for the lack of data provided.
 Runetime median by top 5 genre revenue.
 Analysis of finances for both domestic and foreign to capture which market makes more moeny and where we should invest our marketing budget
